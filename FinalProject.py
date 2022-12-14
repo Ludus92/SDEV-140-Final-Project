@@ -1,5 +1,8 @@
-#importing the packages
+#Game Store App ver. 1.0
+#This app when finished would allow users to purchase games directly from a company.
+#Created by Samantha Short 12/14/2022
 
+#importing the packages
 import tkinter as tk
 from tkinter import *
 from PIL import ImageTk, Image
@@ -61,6 +64,7 @@ def create_top():
 l7=tk.Button(root,text="Shopping Cart",font=("Arial", 15), command=create_top)
 l7.place(x=250,y=400)
 
+#This creates the Exit button in the lower left and ends the entire program.
 l9=tk.Button(root,text="Exit",font=("Arial", 15), command=root.destroy)
 l9.place(x=50,y=400)
 
